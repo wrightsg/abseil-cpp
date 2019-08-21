@@ -117,6 +117,7 @@ absl_cc_test(
     absl::strings
     Threads::Threads
     gmock
+    ws2_32
 )
 
 absl_cc_library(

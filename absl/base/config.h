@@ -332,6 +332,8 @@
 #elif defined(__EMSCRIPTEN__)
 // emscripten doesn't support signals
 #elif defined(__native_client__)
+#elif defined(__MINGW32__)
+// feature tests for MinGW
 #else
 // other standard libraries
 #define ABSL_HAVE_ALARM 1

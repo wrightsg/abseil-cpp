@@ -133,6 +133,7 @@ absl_cc_library(
     absl::core_headers
     absl::dynamic_annotations
     absl::spinlock_wait
+    shlwapi
   PUBLIC
 )
 
